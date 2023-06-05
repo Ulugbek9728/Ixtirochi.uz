@@ -1,0 +1,325 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+  box-sizing: border-box;
+
+  a{
+    text-decoration: none;
+  }
+}
+$maincolor:#00b454;
+$textColor:#656969;
+.heder{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid $maincolor;
+  background-color: white;
+  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li{
+      list-style: none;
+      margin-left: 48px;
+      a{
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 27px;
+        color: #B3B3B3;
+        &:hover{
+          color: black;
+          border-bottom: 1px solid black;
+        }
+      }
+    }
+  }
+}
+
+.headerBox{
+  .headerTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 35px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: $maincolor;
+    height: 70px;
+    overflow: hidden;
+    .left{
+      display: flex;
+      a{
+        color: white;
+        margin-right: 35px;
+      }
+    }
+    .logo{
+      img{
+        width: 300px;
+      }
+    }
+    .right{
+
+      a{
+        color: white;
+        margin-left: 35px;
+        img{
+          width: 15px;
+          margin-left: 10px;
+        }
+      }
+    }
+    .srcColleps{
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 100px;
+      width: 100vw;
+      height: 70px;
+      background-color: white;
+      box-shadow: 0px 1px 5px $textColor;
+      input{
+        width: 90%;
+        height: 80%;
+        border: none;
+        &:focus{
+          outline: none;
+        }
+      }
+      span{
+        cursor: pointer;
+      }
+    }
+  }
+
+}
+
+.home{
+  height: auto;
+  .title{
+    text-align: center;
+    margin-top: 35px;
+    font-weight: 500;
+    font-size: 34px;
+  }
+  .text{
+    text-align: center;
+    margin-top: 35px;
+    color: $textColor;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  .statistika{
+    margin-top: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.30);
+    height: 124px;
+    .litleStat{
+      height: 100%;
+      box-sizing: border-box;
+      &:nth-of-type(2){
+        border-left: 1px solid $textColor;
+        border-right: 1px solid $textColor;
+      }
+      .number{
+        font-size: 34px;
+        color: $maincolor;
+        text-align: center;
+      }
+      .comment{
+        color: $textColor;
+        text-align: center;
+      }
+    }
+  }
+  .sectioOne{
+    margin-top: 24px;
+    cursor: pointer;
+    padding-bottom: 60px;
+    &:hover .titleS{
+      text-decoration: underline;
+    }
+    .box{
+
+      &:nth-of-type(1){
+        padding: 30px 60px 0 0;
+        border-right: 1px solid $textColor;
+      }
+      &:nth-of-type(2){
+        padding: 30px 0 0 60px;
+      }
+      .span{
+        margin-bottom: 18px!important;
+      }
+      .bigImg{
+        width: 100%;
+        margin-bottom: 18px;
+        border-bottom: 10px solid $maincolor;
+      }
+      .titleS{
+        font-size: 28px;
+        color: black;
+      }
+      .textS{
+        font-size: 18px;
+        color: $textColor;
+        padding:12px 0 24px 0;
+      }
+      .titleRec{
+        font-weight: 700;
+        font-size: 13px;
+        color: $textColor;
+        margin-bottom: 18px;
+      }
+
+      .smallBox{
+        padding: 18px 0;
+        border-bottom: 1px solid black;
+        &:nth-of-type(1){
+          padding:0 0 18px 0
+        }
+        &:hover .titleSmall{
+          text-decoration: underline;
+          color: $maincolor;
+        }
+        img{
+          width: 176px;
+          height: 90px;
+          margin-right: 24px;
+        }
+        .titleSmall{
+          font-size: 14px;
+          font-weight: 400;
+          color: black;
+          margin-bottom: 4px;
+        }
+        .prosentSmall{
+          font-size: 12px;
+          color: $maincolor;
+          margin-bottom: 3px;
+        }
+        .textSmall{
+          font-size: 12px;
+          margin-bottom: 3px;
+        }
+        .icon{
+          width: 23px;
+          height: 23px;
+          border: 1px solid $textColor;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 5px;
+          &:nth-of-type(3){
+            transform: rotate(-180deg);
+          }
+          img{
+            width: 12px;
+            height: 12px;
+            margin: 0;
+          }
+
+        }
+      }
+
+      .pagination{
+        margin-top: 80px;
+        display: flex;
+        justify-content: right;
+      }
+    }
+  }
+  .SectionTwo{
+    padding: 96px 0;
+    display: flex;
+    border-top: 1px solid $textColor;
+    border-bottom: 1px solid $textColor;
+    &:hover .leftTop .title{
+      text-decoration: underline;
+      color: $maincolor;
+    }
+    img{
+      width: 623px;
+      height: 240px;
+    }
+    .leftTop{
+      border-left: 6px solid $maincolor;
+      padding-left: 18px;
+      margin-bottom: 24px;
+      .title{
+        font-size: 28px;
+        margin-top: 0;
+        text-align: left;
+      }
+      .text{
+        margin-top: 18px;
+        text-align: justify;
+      }
+    }
+    .learnMore{
+      font-size: 14px;
+    }
+  }
+  .sectionThree{
+    padding: 48px 0 96px 0;
+    position: relative;
+    .title{
+      font-size: 13px;
+      text-align: left;
+      margin-bottom: 36px;
+      a{
+        margin-left: 18px;
+      }
+    }
+    .owl-theme{
+      .item{
+        padding: 0 6px 0 0;
+        cursor: pointer;
+        &:hover .titleOWL{
+          text-decoration: underline;
+          color: $maincolor;
+        }
+        img{
+          height: 164px;
+          border-bottom: 5px solid $maincolor;
+        }
+        .titleOWL{
+          font-size: 18px;
+          margin: 18px 0;
+        }
+        .textOWL{
+          font-size: 14px;
+          margin-bottom: 30px;
+        }
+        .bySomeOne{
+          font-size: 14px;
+        }
+      }
+      .owl-nav{
+        position: absolute;
+        top: -86px;
+        right: 0;
+        font-size: 30px;
+        color: $textColor;
+      }
+      .owl-next{
+        width: 46px;
+        height: 46px;
+      }
+      .owl-prev{
+        width: 46px;
+        height: 46px;
+      }
+    }
+  }
+}
+
