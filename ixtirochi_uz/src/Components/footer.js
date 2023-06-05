@@ -25,18 +25,6 @@ const icons = {
 function Footer(props) {
     return (
         <div>
-            <div className="heder">
-                <ul>
-                    <li><a href="#">Arts</a></li>
-                    <li><a href="#">Comics & Illustration</a></li>
-                    <li><a href="#">Design & Tech</a></li>
-                    <li><a href="#">Film</a></li>
-                    <li><a href="#">Food & Craft</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="#">Publishing</a></li>
-                </ul>
-            </div>
             <div style={footer}>
                 <div>
                     <div
@@ -64,9 +52,9 @@ function Footer(props) {
                             <div>Brand assets</div>
                         </div>
                         <div style={flex}>
-                            <h3>MORE FROM KICKSTARTER</h3>
+                            <h3>MORE FROM IXTIROCHI.UZ</h3>
                             <div>Newsletters</div>
-                            <div>Kickstarter Magazine</div>
+                            <div>Ixtirochi.uz Magazine</div>
                             <div>The Creative Independent</div>
                             <div>Mobile ads</div>
                             <div>Research</div>

@@ -4,6 +4,8 @@ import logo from '../img/logo.jpg'
 import src from '../img/src.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import {Link} from "react-router-dom";
+
 
 
 function Header(props) {
@@ -20,9 +22,9 @@ function Header(props) {
                     <a href="#">Discover</a>
                     <a href="#">Start a project</a>
                 </div>
-                <div className="logo">
+                <Link to={'/'} className="logo">
                     <img src={logo} alt=""/>
-                </div>
+                </Link>
                 <div className="right">
                     <a onClick={(e) => {
                         setSrc(true)

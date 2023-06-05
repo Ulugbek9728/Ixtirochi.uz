@@ -11,10 +11,13 @@ import {Pagination} from 'antd';
 import OwlCarousel from "react-owl-carousel"
 import "owl.carousel/dist/assets/owl.carousel.min.css"
 import "owl.carousel/dist/assets/owl.theme.default.min.css"
+import {Link} from "react-router-dom";
+
 
 
 function Home(props) {
     return (
+
         <div className='home'>
             <div className='title'>Bring a creative project to life.</div>
             <div className='text'>ON Ixtirochi.uz</div>
@@ -37,14 +40,16 @@ function Home(props) {
             <div className="container">
                 <div className="row sectioOne">
                     <div className="col-7 box">
-                        <div className='span'>FEATURED PROJECT</div>
-                        <img className='bigImg' src={Bg1} alt=""/>
-                        <div className="titleS">Lorem</div>
-                        <div className="textS">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
-                            quod.
-                        </div>
-                        <div className="bySomeOne">By <span>Riftweaver</span></div>
+                        <Link to='/projects'>
+                            <div className='span'>FEATURED PROJECT</div>
+                            <img className='bigImg' src={Bg1} alt=""/>
+                            <div className="titleS">Lorem</div>
+                            <div className="textS">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit
+                                ipsam minima non oditquia quod.
+                            </div>
+                            <div className="bySomeOne">By <span>Riftweaver</span></div>
+                        </Link>
                     </div>
                     <div className="col-5 box">
                         <div className="titleRec">RECOMMENDED FOR YOU</div>
@@ -130,7 +135,8 @@ function Home(props) {
                                 <div className="title">Food Stars on Ixtirochi.uz</div>
                                 <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
                                     cumque harum non repudiandae sunt tempora voluptatum! Consequuntur deserunt id
-                                    libero, modi nesciunt provident tempore. Consequuntur deleniti rem sed temporibus.
+                                    libero, modi nesciunt provident tempore. Consequuntur deleniti rem sed
+                                    temporibus.
                                 </div>
 
                             </div>
@@ -153,7 +159,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg1} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -162,7 +169,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg2} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -171,7 +179,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg3} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -180,7 +189,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg4} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -189,7 +199,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg5} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -208,7 +219,8 @@ function Home(props) {
                                 <div className="title">Food Stars on Ixtirochi.uz</div>
                                 <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
                                     cumque harum non repudiandae sunt tempora voluptatum! Consequuntur deserunt id
-                                    libero, modi nesciunt provident tempore. Consequuntur deleniti rem sed temporibus.
+                                    libero, modi nesciunt provident tempore. Consequuntur deleniti rem sed
+                                    temporibus.
                                 </div>
 
                             </div>
@@ -231,7 +243,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg1} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -240,7 +253,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg2} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -249,7 +263,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg3} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -258,7 +273,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg4} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -267,7 +283,8 @@ function Home(props) {
                             <img className='bigImg' src={Bg5} alt=""/>
                             <div className="titleOWL">Lorem</div>
                             <div className="textOWL">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non odit quia
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ipsam minima non
+                                odit quia
                                 quod.
                             </div>
                             <div className="bySomeOne">By <span>Riftweaver</span></div>
@@ -286,7 +303,8 @@ function Home(props) {
                                 <div className="title">Food Stars on Ixtirochi.uz</div>
                                 <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
                                     cumque harum non repudiandae sunt tempora voluptatum! Consequuntur deserunt id
-                                    libero, modi nesciunt provident tempore. Consequuntur deleniti rem sed temporibus.
+                                    libero, modi nesciunt provident tempore. Consequuntur deleniti rem sed
+                                    temporibus.
                                 </div>
 
                             </div>
@@ -298,6 +316,7 @@ function Home(props) {
 
             </div>
         </div>
+
     );
 }
 

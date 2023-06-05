@@ -11,6 +11,7 @@
 $maincolor:#00b454;
 $textColor:#656969;
 .heder{
+
   width: 100%;
   height: 70px;
   display: flex;
@@ -40,6 +41,9 @@ $textColor:#656969;
 }
 
 .headerBox{
+  position: sticky;
+  top: 0;
+  z-index: 10;
   .headerTop{
     display: flex;
     align-items: center;
@@ -77,6 +81,7 @@ $textColor:#656969;
       position: absolute;
       top: 0;
       left: 0;
+      z-index: 11;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -158,6 +163,7 @@ $textColor:#656969;
       }
       .span{
         margin-bottom: 18px!important;
+        color: $textColor;
       }
       .bigImg{
         width: 100%;
@@ -172,6 +178,9 @@ $textColor:#656969;
         font-size: 18px;
         color: $textColor;
         padding:12px 0 24px 0;
+      }
+      .bySomeOne{
+        color: $textColor;
       }
       .titleRec{
         font-weight: 700;
