@@ -19,8 +19,8 @@ function Header(props) {
         <div className='headerBox'>
             <div className='headerTop'>
                 <div className='left'>
-                    <a href="#">Discover</a>
-                    <a href="#">Start a project</a>
+                    <a href="#">Katigoriya</a>
+                    <a href="#">Loyiha qo'shish</a>
                 </div>
                 <Link to={'/'} className="logo">
                     <img src={logo} alt=""/>
@@ -29,10 +29,10 @@ function Header(props) {
                     <a onClick={(e) => {
                         setSrc(true)
                     }} href="#">
-                        Search
+                        Qidiruv
                         <img src={src} alt=""/>
                     </a>
-                    <a href='#'>Log in</a>
+                    <Link to='/login'>Kirish</Link>
                 </div>
                 {
                     srcBoolin ? <div className='srcColleps' data-aos="fade-down">
@@ -45,14 +45,11 @@ function Header(props) {
             </div>
             <div className="heder">
                 <ul>
-                    <li><a href="#">Arts</a></li>
-                    <li><a href="#">Comics & Illustration</a></li>
-                    <li><a href="#">Design & Tech</a></li>
-                    <li><a href="#">Film</a></li>
-                    <li><a href="#">Food & Craft</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Music</a></li>
-                    <li><a href="#">Publishing</a></li>
+                    <li><a href="#">Texnologiya</a></li>
+                    <li><a href="#">Komikslar va Illyustratsiya</a></li>
+                    <li><a href="#">Dizayn </a></li>
+                    <li><a href="#">Hunarmandchilik</a></li>
+                    <li><a href="#">Video o'yinlar</a></li>
                 </ul>
             </div>
 

@@ -19,21 +19,21 @@ function Home(props) {
     return (
 
         <div className='home'>
-            <div className='title'>Bring a creative project to life.</div>
-            <div className='text'>ON Ixtirochi.uz</div>
+            <div className='title'>Ijodiy loyihalaringizni hayotga tadbiq eting</div>
+            <div className='text'> Ixtirochi.uz bilan</div>
             <div className="container statistika">
                 <div className="row">
                     <div className="col-4 p-4 litleStat">
                         <div className="number">240,347</div>
-                        <div className="comment">projects funded</div>
+                        <div className="comment">Loyihalar moliyalashtirildi</div>
                     </div>
                     <div className="col-4 p-4 litleStat">
                         <div className="number">$7,359,808,519</div>
-                        <div className="comment">towards creative work</div>
+                        <div className="comment">Ijodiy ishlarga</div>
                     </div>
                     <div className="col-4 p-4 litleStat">
                         <div className="number">88,254,609</div>
-                        <div className="comment">pledges</div>
+                        <div className="comment">Investorlar</div>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function Home(props) {
                 <div className="row sectioOne">
                     <div className="col-7 box">
                         <Link to='/projects'>
-                            <div className='span'>FEATURED PROJECT</div>
+                            <div className='span'>Kutilayotgan loyihalar</div>
                             <img className='bigImg' src={Bg1} alt=""/>
                             <div className="titleS">Lorem</div>
                             <div className="textS">
@@ -52,7 +52,7 @@ function Home(props) {
                         </Link>
                     </div>
                     <div className="col-5 box">
-                        <div className="titleRec">RECOMMENDED FOR YOU</div>
+                        <div className="titleRec">SIZGA TAVSIYA ETILGAN</div>
                         <div className="d-flex smallBox">
                             <img src={Bg2} alt=""/>
                             <div className="">
