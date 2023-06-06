@@ -8,10 +8,15 @@ import twt from "../img/icon/twitter.png"
 import LogoIcon from "../img/ixtirochiUz.jpg"
 import message from "../img/icon/chatting.png"
 import speaker from "../img/icon/speaker.png"
+import Bg3 from "../img/3.jpg"
 import Bg4 from "../img/4.jpg"
+import Bg5 from "../img/5.jpg"
 
-import {Badge, Space} from 'antd';
+import {Badge, Space, InputNumber} from 'antd';
 
+const onChange = (value) => {
+    console.log('changed', value);
+};
 
 function Projects(props) {
     return (
@@ -195,6 +200,146 @@ function Projects(props) {
                         We launch products on Kickstarter because it keeps us free of
                         outside investment and you closer to great design.
                         <img src={Bg4} alt=""/>
+                    </div>
+                </div>
+                <div className="right">
+                    <div className="cardBox">
+                        <img src={Bg5} alt=""/>
+                        <div className="card">
+                            <div className="Cardtitle">
+                                Oru Kayak
+                            </div>
+                            <div className="Cardtext">
+                                6 created 0 backend
+                            </div>
+                            <div className="Cardtext">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore doloremque
+                                earum eos esse, explicabo illum ipsa iure, molestiae nostrum officia officiis placeat
+                                ratione rerum tenetur unde ut! Quidem, rem?...
+                                <span>See more</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Support</h3>
+                    <div className="card">
+                        <div className="Cardtitle">
+                            Pledge without a reward
+                        </div>
+                        <Space>
+                            <InputNumber
+                                defaultValue={10}
+                                formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                                parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
+                                onChange={onChange}
+                            />
+
+                        </Space>
+                        <div className="background">
+                            <div className="titleGradiant">
+                                Back it because you believe in it.
+                            </div>
+                            <div className="textGradiant">
+                                Support the project for no reward, just because it speaks to you.
+                            </div>
+
+                        </div>
+                        <button className='btn' type='button'>Continue</button>
+                    </div>
+                    <div className="card card1">
+                    <img src={Bg3} alt=""/>
+                    <div className="box">
+                        <div className="comment">
+                            Pledge $10 or more
+                        </div>
+                        <div className="Cardtitle">
+                            SINGLE DOWNLOAD - I'm an Old Cowhand
+                        </div>
+                        <div className="Cardtext">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore doloremque
+                            earum eos esse, explicabo illum ipsa iure, molestiae nostrum officia officiis placeat
+                            ratione rerum tenetur unde ut! Quidem, rem?...
+                            <span>Read more...</span>
+                        </div>
+                        <div className="Cardtext">
+                            ESTIMATED DELIVERY
+                            <p>Jul 2023</p>
+                        </div>
+                        <Space>
+                            <InputNumber
+                                defaultValue={10}
+                                formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                                parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
+                                onChange={onChange}
+                            />
+
+                        </Space>
+                        <button className='btn' type='button'>Continue</button>
+                    </div>
+
+                </div>
+                    <div className="card card1">
+                        <img src={Bg4} alt=""/>
+                        <div className="box">
+                            <div className="comment">
+                                Pledge $15 or more
+                            </div>
+                            <div className="Cardtitle">
+                                SINGLE DOWNLOAD - I'm an Old Cowhand
+                            </div>
+                            <div className="Cardtext">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore doloremque
+                                earum eos esse, explicabo illum ipsa iure, molestiae nostrum officia officiis placeat
+                                ratione rerum tenetur unde ut! Quidem, rem?...
+                                <span>Read more...</span>
+                            </div>
+                            <div className="Cardtext">
+                                ESTIMATED DELIVERY
+                                <p>Jul 2023</p>
+                            </div>
+                            <Space>
+                                <InputNumber
+                                    defaultValue={10}
+                                    formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                                    parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
+                                    onChange={onChange}
+                                />
+
+                            </Space>
+                            <button className='btn' type='button'>Continue</button>
+                        </div>
+
+                    </div>
+                    <div className="card card1">
+                        <img src={Bg5} alt=""/>
+                        <div className="box">
+                            <div className="comment">
+                                Pledge $20 or more
+                            </div>
+                            <div className="Cardtitle">
+                                SINGLE DOWNLOAD - I'm an Old Cowhand
+                            </div>
+                            <div className="Cardtext">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore doloremque
+                                earum eos esse, explicabo illum ipsa iure, molestiae nostrum officia officiis placeat
+                                ratione rerum tenetur unde ut! Quidem, rem?...
+                                <span>Read more...</span>
+                            </div>
+                            <div className="Cardtext">
+                                ESTIMATED DELIVERY
+                                <p>Jul 2023</p>
+                            </div>
+                            <Space>
+                                <InputNumber
+                                    defaultValue={10}
+                                    formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                                    parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
+                                    onChange={onChange}
+                                />
+
+                            </Space>
+                            <button className='btn' type='button'>Continue</button>
+                        </div>
+
                     </div>
                 </div>
 

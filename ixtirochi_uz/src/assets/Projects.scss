@@ -162,7 +162,8 @@ $textColor:#656969;
   }
   .storyBox{
     position: relative;
-    padding: 20px 300px;
+    padding: 20px 300px 100px 300px;
+    border-bottom: 1px solid $textColor;
     display: flex;
     .story{
       width: 12%;
@@ -192,6 +193,129 @@ $textColor:#656969;
         img{
           margin: 20px 0;
           width: 100%;
+        }
+      }
+    }
+    .right{
+      width: 28%;
+      padding: 10px;
+      height: 65vh;
+      overflow-x: auto;
+      .cardBox{
+        position: relative;
+        box-sizing: border-box;
+        padding: 30px 0 0 0;
+
+        img{
+          width: 72px;
+          height: 72px;
+          border-radius: 50%;
+          position: absolute;
+          top: 0;
+          z-index: 1;
+        }
+        .card{
+          padding: 54px 18px 18px 18px;
+          border-radius: 0;
+          .Cardtitle{
+            font-size: 16px;
+          }
+          .Cardtext{
+            text-overflow: ellipsis;
+            font-size: 14px;
+            margin-bottom: 30px;
+            line-height: 25px;
+            color: $textColor ;
+            span{
+              color: $maincolor;
+            }
+          }
+        }
+      }
+      h3{
+        margin: 30px 0;
+      }
+      .card{
+        border-radius: 0;
+        padding: 20px;
+        margin-bottom: 20px;
+        .ant-input-number{
+          margin-top: 25px;
+          width:300px;
+          height: 40px;
+          border-radius: 0;
+
+          .ant-input-number-input-wrap{
+            width: 100%;
+            height: 100%;
+            input{
+              width: 100%;
+              height: 100%;
+            }
+
+          }
+
+        }
+        .background{
+          margin-top: 20px;
+          padding: 20px;
+          background: linear-gradient(rgba(112, 179, 230, 0.54), rgba(229, 225, 155, 0.55));
+          width: 100%;
+          height: 200px;
+          .titleGradiant{
+            font-size: 16px;
+            font-weight: 800;
+            letter-spacing: 1px;
+            margin-bottom: 12px;
+          }
+          .textGradiant{
+            letter-spacing: 1px;
+            font-size: 14px;
+          }
+
+        }
+        button{
+          width: 100%;
+          height: 45px;
+          margin-top: 20px;
+          border: none;
+          color: white;
+          border-radius: 0;
+          background-color: $maincolor;
+        }
+      }
+      .card1{
+        padding: 0;
+        .box{
+          display: block;
+          margin: 0;
+          padding: 20px;
+          .comment{
+            font-size: 18px;
+            color: $textColor;
+          }
+          .Cardtitle{
+            font-size: 16px;
+            font-weight: 600;
+            margin: 20px 0;
+          }
+          .Cardtext{
+            text-overflow: ellipsis;
+            font-size: 14px;
+            margin-bottom: 20px;
+            line-height: 25px;
+            color: $textColor ;
+
+            span{
+
+              cursor: pointer;
+              color: $maincolor;
+            }
+            p{
+              color: black;
+              font-weight: 600;
+            }
+          }
         }
       }
     }
