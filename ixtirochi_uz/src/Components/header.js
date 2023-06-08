@@ -45,11 +45,12 @@ function Header(props) {
             </div>
             <div className="heder">
                 <ul>
+                    <li><a href="#">Elektronika va Arduino</a></li>
                     <li><a href="#">Texnologiya</a></li>
                     <li><a href="#">Komikslar va Illyustratsiya</a></li>
-                    <li><a href="#">Dizayn </a></li>
+                    <li><a href="#">3D loyihalash </a></li>
                     <li><a href="#">Hunarmandchilik</a></li>
-                    <li><a href="#">Video o'yinlar</a></li>
+                    <li><a href="#">Sun'iy intellekt </a></li>
                 </ul>
             </div>
 

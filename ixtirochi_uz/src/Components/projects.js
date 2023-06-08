@@ -21,10 +21,16 @@ const onChange = (value) => {
 function Projects(props) {
     return (
         <div className='Projects'>
-            <p className="title">Lorem ipsum dolor sit amet.</p>
+            <p className="title">ROBOT</p>
             <p className="text">
-                A beautiful, functional hand strap specially designed for mirrorless cameras.
-                Better grip, more comfort, total access to controls.
+                Ushbu loyiha O'zbekistondagi birinchi marta ixtiro qilingan eng katta va og'ir yuklarni ko'tarishga
+                mo'ljallangan Robot. Loyihadan ko'zlangan asosiy maqsad inson ko'tara olmaydigan og'ir yuklarni
+                ko'tarish va Robotning ichki kabinasiga òtirgan holda qòl harakatlari orqali masofaga yuklarni tashish,
+                hamda harbiy, qutqaruv sohalarida jangovor va qutqaruvchi vazifasida xavfli xududlardagi opiratsialarga
+                qatnashishdan iborat.
+                Ushbu robot inson harakatlarini (qo'l, barmoq, yurish) yuqori aniqlikda qaytara oladigan dasturiy
+                ta'minot bn taminlangan. Yana bir qulay funksiyalardan biri uzoq masofadan ushbu ulkan robotni
+                boshqarish ham mumkin.
             </p>
             <div className="container">
                 <div className="row">
@@ -37,28 +43,28 @@ function Projects(props) {
                     <div className=" col-5 rightBox">
                         <div className="right">
                             <div className="cost">
-                                US$ 1,117,360
+                                $ 1,117,360
                             </div>
                             <div className="comment">
-                                pledged of US$ 50,000 goal
+                                Kutilayotgan Investitsiya $ 50,000
                             </div>
                             <div className="backers">
                                 9,281
                             </div>
                             <div className="comment">
-                                backers
+                                Investorlar
                             </div>
                             <div className="backers">
                                 9
                             </div>
                             <div className="comment">
-                                days to go
+                                Tugash vaqti
                             </div>
-                            <button className='btn' type={"button"}>Back this project</button>
+                            <button className='btn' type={"button"}>Investitsiya kiritish</button>
                             <div className="remindMeBox d-flex">
                                 <button className='btn' type={"button"}>
                                     <img src={Bgribbon} alt=""/>
-                                    Remind me
+                                    Saqlab qo'yish
                                 </button>
                                 <div className="rightIcon">
                                     <a href="#">
@@ -175,7 +181,15 @@ function Projects(props) {
                         things coming soon.
                         We launch products on Kickstarter because it keeps us free of
                         outside investment and you closer to great design.
-                        <img src={Bg4} alt=""/>
+                        <img src={Bg3} alt=""/>
+                        Micro Clutch will ship in summer of 2023.
+                        Lock in this sweet deal by backing now!
+                        You can add other PD products onto you reward for up to 50% off MSRP!
+                        This is a shorter campaign than most of our others. We've got big
+                        things coming soon.
+                        We launch products on Kickstarter because it keeps us free of
+                        outside investment and you closer to great design.
+                        <img src={Bg5} alt=""/>
                         Micro Clutch will ship in summer of 2023.
                         Lock in this sweet deal by backing now!
                         You can add other PD products onto you reward for up to 50% off MSRP!
@@ -191,15 +205,7 @@ function Projects(props) {
                         things coming soon.
                         We launch products on Kickstarter because it keeps us free of
                         outside investment and you closer to great design.
-                        <img src={Bg4} alt=""/>
-                        Micro Clutch will ship in summer of 2023.
-                        Lock in this sweet deal by backing now!
-                        You can add other PD products onto you reward for up to 50% off MSRP!
-                        This is a shorter campaign than most of our others. We've got big
-                        things coming soon.
-                        We launch products on Kickstarter because it keeps us free of
-                        outside investment and you closer to great design.
-                        <img src={Bg4} alt=""/>
+                        <img src={Bg3} alt=""/>
                     </div>
                 </div>
                 <div className="right">
@@ -246,37 +252,37 @@ function Projects(props) {
                         <button className='btn' type='button'>Continue</button>
                     </div>
                     <div className="card card1">
-                    <img src={Bg3} alt=""/>
-                    <div className="box">
-                        <div className="comment">
-                            Pledge $10 or more
-                        </div>
-                        <div className="Cardtitle">
-                            SINGLE DOWNLOAD - I'm an Old Cowhand
-                        </div>
-                        <div className="Cardtext">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore doloremque
-                            earum eos esse, explicabo illum ipsa iure, molestiae nostrum officia officiis placeat
-                            ratione rerum tenetur unde ut! Quidem, rem?...
-                            <span>Read more...</span>
-                        </div>
-                        <div className="Cardtext">
-                            ESTIMATED DELIVERY
-                            <p>Jul 2023</p>
-                        </div>
-                        <Space>
-                            <InputNumber
-                                defaultValue={10}
-                                formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
-                                parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
-                                onChange={onChange}
-                            />
+                        <img src={Bg3} alt=""/>
+                        <div className="box">
+                            <div className="comment">
+                                Pledge $10 or more
+                            </div>
+                            <div className="Cardtitle">
+                                SINGLE DOWNLOAD - I'm an Old Cowhand
+                            </div>
+                            <div className="Cardtext">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore doloremque
+                                earum eos esse, explicabo illum ipsa iure, molestiae nostrum officia officiis placeat
+                                ratione rerum tenetur unde ut! Quidem, rem?...
+                                <span>Read more...</span>
+                            </div>
+                            <div className="Cardtext">
+                                ESTIMATED DELIVERY
+                                <p>Jul 2023</p>
+                            </div>
+                            <Space>
+                                <InputNumber
+                                    defaultValue={10}
+                                    formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
+                                    parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
+                                    onChange={onChange}
+                                />
 
-                        </Space>
-                        <button className='btn' type='button'>Continue</button>
+                            </Space>
+                            <button className='btn' type='button'>Continue</button>
+                        </div>
+
                     </div>
-
-                </div>
                     <div className="card card1">
                         <img src={Bg4} alt=""/>
                         <div className="box">
@@ -298,7 +304,7 @@ function Projects(props) {
                             </div>
                             <Space>
                                 <InputNumber
-                                    defaultValue={10}
+                                    defaultValue={15}
                                     formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
                                     parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
                                     onChange={onChange}
@@ -330,7 +336,7 @@ function Projects(props) {
                             </div>
                             <Space>
                                 <InputNumber
-                                    defaultValue={10}
+                                    defaultValue={20}
                                     formatter={(value) => `$ ${value}`.replace(/\B(?=(\d{3})+(?!\d))/g, ',')}
                                     parser={(value) => value.replace(/\$\s?|(,*)/g, '')}
                                     onChange={onChange}

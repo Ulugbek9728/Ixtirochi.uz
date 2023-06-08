@@ -6,7 +6,7 @@ function Login(props) {
         <div className='LoginBox'>
             <div className="box">
                 <div className="title">
-                    Log in
+                    Kirish
                 </div>
                 <input type="email" placeholder='Email'/>
                 <input type="password" placeholder='Password'/>
